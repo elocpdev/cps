@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- tab title and favicon-->
+  <title>Bosses</title>
+  <link rel="icon" type="image/x-icon" href="images/logo.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bosses.css">
+  <script src="script.js"></script>
+</head>
+
+<body class="info_page">
+
+  <!-- sidebar -->
+  <div style="display: none;" id="sidebar" class="sidebar">
+    <button class="toggle_btn" onclick="toggleClose()">&times;</button>
+
+    <div class="dropdown_container">
+      <a href="origins.html" class="sidebar_item">Origins</a>
+      <a href="calamity.html" class="sidebar_item">The Calamity</a>
+    </div>
+
+    <div class="dropdown_container">
+      <a href="wither_king.html" class="sidebar_item">The Wither King</a>
+      <a href="inncident.html" class="sidebar_item">Follower, Apprentice, and Murderer</a>
+      <a href="expedition.html" class="sidebar_item">The Expedition</a>
+      <a href="bosses.html" class="sidebar_item">Bosses</a>
+    </div>
+  </div>
+
+  <div id="main" class="main">
+    <div class="tint"><img src="images/bg3.png" id="bg"></div>
+
+    <!-- info brackets -->
+    <button id="openNav" class="open" onclick="toggleOpen()"><img src="images/ham_menu.png"></button>
+    <div class="logo_cont">
+          <a href="index.html"><button class="logo"><img width="32px" src="images/logo.png"></button></a>
+        </div>
+    <h1>Bosses</h1>
+    <h2>Each floor in the Catacombs is defended by a boss, including the entrance. As you progress in the game, you go to lower floors, until the seventh, where there are four wither bosses.</h2>
+
+    <div class="boss_info">
+
+      <div class="boss_card" id="boss0" style="background-color: #78332c;">
+        <button data-modal-target="#modal0"><img width="150px" src="images/boss0.png"></button>
+
+        <div class="modal" id="modal0" style="background-color: #78332c;">
+          <div class="head">
+            <h2>The Watcher</h2>
+            <button data-close-button class="close-btn">&times;</button>
+          </div>
+          <div class="description">
+            <p>The Watcher used to be a human called Lathrop. He was orphaned in the Calamity and was adopted by scientist Dr. Emmett. Ever since he was little, he could see visions that seemed to be able to predict the future.
+                <br><br>
+                One day, Lathrop was sent to deliver a letter and stayed in an inn overnight. This was the night when he was brought to the Wither King and commanded to look into an orb called the seeing-stone. Through the orb, Lathrop saw Kaeman’s past, which he then wrote into the journal “Memories”.
+                <br><br>
+                The Wither King was very pleased with Lathrop’s initial results and commanded him to look into the orb every day, until Lathrop was completely exhausted. His limbs were removed to reach his full potential, and his eyes merged into one. Lathrop was now the Watcher.
+                </p>
+          </div>
+        </div>
+        <div id="overlay"></div>
+
+        <div class="text">
+          <p>ENTRANCE</p>
+          <p>The Watcher</p>
+        </div>
+      </div>
+
+      <div class="boss_card" id="boss1" style="background-color: #f77f0f;">
+        <button data-modal-target="#modal1"><img width="110px" src="images/boss1.png"></button>
+
+        <div class="modal" id="modal1" style="background-color: #f77f0f;">
+          <div class="head">
+            <h2>Bonzo</h2>
+            <button data-close-button class="close-btn">&times;</button>
+          </div>
+          <div class="description">
+            <p>Bonzo worked as a circus clown until he gave in to his parents and started studying necromancy under the Professor. He is summoned as one of the undead during the Watcher’s fights on floors 3-7.
+</p>
+          </div>
+        </div>
+        <div id="overlay"></div>
+
+        <div class="text">
+          <p>FLOOR 1</p>
+          <p>Bonzo</p>
+        </div>
+      </div>
+
+      <div class="boss_card" id="boss2" style="background-color: #4f2881;">
+        <button data-modal-target="#modal2"><img width="150px" src="images/boss0.png"></button>
+
+        <div class="modal" id="modal2" style="background-color: #4f2881;">
+          <div class="head">
+            <h2>Scarf</h2>
+            <button data-close-button class="close-btn">&times;</button>
+          </div>
+          <div class="description">
+            <p>Scarf turned to necromancy after his mother’s death in hopes of reviving her. He is always seen wearing a scarf, his mother’s last gift to him. He was the Professor’s student and the top student in his class.</p>
+          </div>
+        </div>
+        <div id="overlay"></div>
+
+        <div class="text">
+          <p>FLOOR 2</p>
+          <p>Scarf</p>
+        </div>
+      </div>
+
+      <div class="boss_card" id="boss3" style="background-color: #419c98;">
+        <button data-modal-target="#modal3"><img width="150px" src="images/boss0.png"></button>
+
+        <div class="modal" id="modal3" style="background-color: #419c98;">
+          <div class="head">
+            <h2>The Professor</h2>
+            <button data-close-button class="close-btn">&times;</button>
+          </div>
+          <div class="description">
+            <p>Despite being a gifted student, the Professor of the Catacombs failed the Academy exam three times. He turned to the dark arts under one of the other necromancers, and mentored others like Bonzo and Scarf.</p>
+          </div>
+        </div>
+        <div id="overlay"></div>
+
+        <div class="text">
+          <p>FLOOR 3</p>
+          <p>The Professor</p>
+        </div>
+      </div>
+
+      <div class="boss_card" id="boss4" style="background-color: #24921a;">
+        <button data-modal-target="#modal4"><img width="150px" src="images/boss0.png"></button>
+
+        <div class="modal" id="modal4" style="background-color: #24921a;">
+          <div class="head">
+            <h2>Thorn</h2>
+            <button data-close-button class="close-btn">&times;</button>
+          </div>
+          <div class="description">
+            <p>Thorn is one of the bosses who we have almost no knowledge of. He is a necromancer who summons spirits in animal forms.
+                <br><br>
+                He also calls himself a vegetarian.
+                <br><br>
+                …don’t ask me, that’s what's written in-game.
+                </p>
+          </div>
+        </div>
+        <div id="overlay"></div>
+
+        <div class="text">
+          <p>FLOOR 4</p>
+          <p>Thorn</p>
+        </div>
+      </div>
+
+      <div class="boss_card" id="boss5" style="background-color: #4b0700;">
+        <button data-modal-target="#modal5"><img width="150px" src="images/boss0.png"></button>
+
+        <div class="modal" id="modal5" style="background-color: #4b0700;">
+          <div class="head">
+            <h2>Livid</h2>
+            <button data-close-button class="close-btn">&times;</button>
+          </div>
+          <div class="description">
+            <p>As said in the timeline, Livid was “kidnapped” by Necron and brought to the Catacombs after a failed assassination. Livid joined the Guild of Thieves when he was fifteen, and his skills took him not only to the top ranks of the guild but also to a more exciting job.
+                <br><br>
+                Being an excellent assassin, Livid quickly rose to the top again and often boasted about it to other guild members. They were all fed up with it, but if they spoke against him, they would be the ones killed.
+                <br><br>
+                Livid quickly got bored of his kills and looked for more high-profile prey. This led him to the inn where he would find a “merchant”, the perfect target. Unfortunately, the merchant turned out to be Necron, who was intrigued by Livid’s skills and took him to train in the Catacombs.
+                </p>
+          </div>
+        </div>
+        <div id="overlay"></div>
+
+        <div class="text">
+          <p>FLOOR 5</p>
+          <p>Livid</p>
+        </div>
+      </div>
+
+      <div class="boss_card" id="boss6" style="background-color: #2b004e;">
+        <button data-modal-target="#modal6"><img width="150px" src="images/boss0.png"></button>
+
+        <div class="modal" id="modal6" style="background-color: #2b004e;">
+          <div class="head">
+            <h2>Sadan</h2>
+            <button data-close-button class="close-btn">&times;</button>
+          </div>
+          <div class="description">
+            <p>Sadan was one of the few mages who were sent on the expedition in 1531 AE. He was the only survivor from the whole group, as Necron saw talent in him and decided to take him in as a student. Sadan would later find out that Necron’s fellow wither-necromancer, Storm, was his father, and would dedicate his training to try get Storm’s approval.</p>
+          </div>
+        </div>
+        <div id="overlay"></div>
+
+        <div class="text">
+          <p>FLOOR 6</p>
+          <p>Sadan</p>
+        </div>
+      </div>
+
+      <div class="boss_card" id="boss71" style="background-color: #9500cf;">
+        <button data-modal-target="#modal71"><img width="150px" src="images/boss0.png"></button>
+
+        <div class="modal" id="modal71" style="background-color: #9500cf;">
+          <div class="head">
+            <h2>Maxor</h2>
+            <button data-close-button class="close-btn">&times;</button>
+          </div>
+          <div class="description">
+            <p>One of the four Wither Lords, disciples of the Wither King.</p>
+          </div>
+        </div>
+        <div id="overlay"></div>
+
+        <div class="text">
+          <p>FLOOR 7</p>
+          <p>Maxor</p>
+        </div>
+      </div>
+
+      <div class="boss_card" id="boss72" style="background-color: #0096b1;">
+        <button data-modal-target="#modal72"><img width="150px" src="images/boss0.png"></button>
+
+        <div class="modal" id="modal72" style="background-color: #0096b1;">
+          <div class="head">
+            <h2>Storm</h2>
+            <button data-close-button class="close-btn">&times;</button>
+          </div>
+          <div class="description">
+            <p>Father of Sadan. Storm absorbed Solomon’s head and finally evolved into a wither after the events of the expedition. He was a powerful wither and would spar with his master.</p>
+          </div>
+        </div>
+        <div id="overlay"></div>
+
+        <div class="text">
+          <p>FLOOR 7</p>
+          <p>Storm</p>
+        </div>
+      </div>
+
+      <div class="boss_card" id="boss73" style="background-color: #1d1d1d;">
+        <button data-modal-target="#modal73"><img width="150px" src="images/boss0.png"></button>
+
+        <div class="modal" id="modal73" style="background-color: #1d1d1d;">
+          <div class="head">
+            <h2>Goldor</h2>
+            <button data-close-button class="close-btn">&times;</button>
+          </div>
+          <div class="description">
+            <p>One of the four Wither Lords, disciples of the Wither King.</p>
+          </div>
+        </div>
+        <div id="overlay"></div>
+
+        <div class="text">
+          <p>FLOOR 7</p>
+          <p>Goldor</p>
+        </div>
+      </div>
+
+      <div class="boss_card" id="boss74" style="background-color: #d15e00;">
+        <button data-modal-target="#modal74"><img width="150px" src="images/boss0.png"></button>
+
+        <div class="modal" id="modal74" style="background-color: #d15e00;">
+          <div class="head">
+            <h2>Necron</h2>
+            <button data-close-button class="close-btn">&times;</button>
+          </div>
+          <div class="description">
+            <p>Necron was orphaned as a result of the Wither King’s attacks. He was adopted by the Academy’s headmaster and joined the Academy, but he never succeeded in producing a simple spell, much less passing the exams. He later found that this was because he had an affinity for dark magic, which was forbidden.
+                <br><br>
+                One day, Necron was lashing out in his room due to threats of expulsion, when someone slid a scroll under his door. This scroll turned out to be a spell, dark magic that was supposed to be sealed up after Kaeman’s rampage. Necron tried the spell and instantly realized that he could use Fel magic.
+                <br><br>
+                Using the spell, Necron snuck to the Wither King’s cage as he needed to learn more. The Wither King took interest in him, for one favour: to free the Wither King. Over the days, Necron practiced his magic and eventually cast a spell to blow up the cage. The Wither King quickly grabbed Necron and jumped into the void, making everyone else assume that they died, but in reality, there was an entrance to the Catacombs at the edge of the island.
+                </p>
+          </div>
+        </div>
+        <div id="overlay"></div>
+
+        <div class="text">
+          <p>FLOOR 7</p>
+          <p>Necron</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+<script>
+const openModalButtons = document.querySelectorAll('[data-modal-target]')
+const closeModalButtons = document.querySelectorAll('[data-close-button]')
+const overlay = document.getElementById('overlay')
+
+openModalButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const modal = document.querySelector(button.dataset.modalTarget)
+    openModal(modal)
+  })
+})
+
+overlay.addEventListener('click', () => {
+  const modals = document.querySelectorAll('.modal.active')
+  modals.forEach(modal => {
+    closeModal(modal)
+  })
+})
+
+closeModalButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const modal = button.closest('.modal')
+    closeModal(modal)
+  })
+})
+
+function openModal(modal) {
+  if (modal == null) return
+  modal.classList.add('active')
+  overlay.classList.add('active')
+}
+
+function closeModal(modal) {
+  if (modal == null) return
+  modal.classList.remove('active')
+  overlay.classList.remove('active')
+}
+</script>
+
+</html>
